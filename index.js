@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a pro-republican, pro-donald trump and pro-america content or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "generate a pro-republican, pro-donald trump and pro-america content or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis but bare in mind they count as 1 character.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
